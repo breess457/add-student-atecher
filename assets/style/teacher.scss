@@ -1,0 +1,235 @@
+h1,h2,h3,h4,h5,h6,p,span{
+    font-family: 'Charmonman', cursive;
+}
+.text-purper{
+    color: rebeccapurple;
+}
+.text-ggren{
+    color: springgreen;
+}
+/* Style Input Type search */
+#custom-search-input{
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    color: rgb(253, 15, 47);
+}
+
+#custom-search-input i{
+    font-size: 23px;
+    margin-top: 5px;
+}
+/* End */
+
+/* Sty Image Preview */
+.container .wrapper{
+    position: relative;
+    height: 180px;
+    width: 100%;
+    border-radius: 10px;
+    background: #fff;
+    border:2px dashed #c2cdda;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+	margin-bottom: 0;
+}
+.wrapper .active{
+    border: none;
+}
+.wrapper:hover{
+    border: 2px dashed #f50808;
+}
+.wrapper .image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper .image img{
+    height: 100%;
+    width: 100%;
+	background-repeat: no-repeat;
+    object-fit: cover;
+	background-attachment: fixed;  
+  	background-size: cover;
+}
+.wrapper .icon{
+    font-size: 70px;
+    color: #16e5ec;
+	text-align: center;
+}
+.wrapper .text{
+    font-size: 16px;
+    font-weight: 500;
+    color: #585878;
+	font-family: 'Charmonman', cursive;
+
+}
+input[type=text],select,select::after,option,label{ 
+	font-family: 'Charmonman', cursive;
+	color: #ef12f7;
+}
+.wrapper .btnCancle{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #f50808;
+    display: none;
+}
+.wrapper.active:hover .btnCancle{
+    display: block;
+}
+.wrapper.active .btnCancle:hover{
+    color: #4b06eb;
+}
+.wrapper .file-name{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: #fff;
+    padding: 8px 0;
+    font-size: 12px;
+	text-align: center;
+    display: none;
+    background: linear-gradient(135deg,#19f5b3 0%,#07c0d8 100%);
+}
+.wrapper.active:hover .file-name{
+    display: block;
+}
+.container .BtnCustom{
+    margin-top: 12px;
+    width: 100%;
+    height: 40px;
+    display: block;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 17px;
+    padding-top: 6px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: linear-gradient(135deg,#19f5b3 0%,#07c0d8 100%);
+}
+/* End */
+
+.btnAddSubmit{
+    margin-top: 12px;
+    width: 100%;
+    height: 40px;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 6px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: linear-gradient(135deg,#f5f119 0%,#d80788 100%);
+}
+
+/*Style List Data Teacher  */
+.list-item {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    border: rgb(255, 0, 200) 1px solid;
+    margin-top: 2%;
+}
+
+.list-item {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: .75rem .625rem;
+    width: 100%;
+}
+
+.list-item>* {
+    padding-left: .625rem;
+    padding-right: .625rem;
+}
+.imgstd-avatar{
+    border-radius: 50%;
+    border: 1px solid rebeccapurple;
+	background-repeat: no-repeat;
+    object-fit: cover;
+	background-attachment: fixed;  
+  	background-size: cover;
+}
+
+.no-wrap {
+    white-space: nowrap
+}
+
+.text-color {
+    color: #6102b9
+}
+
+.text-gd {
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.text-sm {
+    font-size: .825rem
+}
+
+.h-1x {
+    height: 1.25rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical
+}
+
+.w-48 {
+    width: 48px !important;
+    height: 48px !important
+}
+
+a:link {
+    text-decoration: none
+}
+/* End */

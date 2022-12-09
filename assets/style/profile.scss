@@ -1,0 +1,155 @@
+body{
+    font-family: "Courier New", Courier, monospace;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.text-purper{
+    color: rgb(9, 132, 214);
+    font-size: 18px;
+    font-weight: 600;
+}
+.card-profile{
+    margin-top: 80px;
+}
+.card-profile .card-body .set-data{
+    margin-top: 40px;
+    margin-bottom: 2%;
+}
+.card-profile .card-body .avartars{
+    text-align: center;
+    display: flex;
+}
+.card-profile .card-body .avartars img{
+    width: 100%;
+    height: 44%;
+    margin-bottom: 0%;
+	background-repeat: no-repeat;
+    object-fit: cover;
+	background-attachment: fixed;  
+  	background-size: cover;
+    border-radius: 10px;
+    border: 2px solid pink;   
+}
+.card-profile .card-body .data-me{
+    margin-top: 40px;
+}
+
+/* Sty Image Preview */
+.container .wrapper{
+    position: relative;
+    height: 180px;
+    width: 100%;
+    border-radius: 10px;
+    background: #fff;
+    border:2px dashed #c2cdda;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+	margin-bottom: 0;
+}
+.wrapper .active{
+    border: none;
+}
+.wrapper:hover{
+    border: 2px dashed #f50808;
+}
+.wrapper .image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper .image img{
+    height: 100%;
+    width: 100%;
+	background-repeat: no-repeat;
+    object-fit: cover;
+	background-attachment: fixed;  
+  	background-size: cover;
+}
+.wrapper .icon{
+    font-size: 70px;
+    color: #16e5ec;
+	text-align: center;
+}
+.wrapper .text{
+    font-size: 16px;
+    font-weight: 500;
+    color: #585878;
+	font-family: 'Charmonman', cursive;
+
+}
+input[type=text],select,select::after,option,label{ 
+	font-family: 'Charmonman', cursive;
+	color: #ef12f7;
+}
+.wrapper .btnCancle{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #f50808;
+    display: none;
+}
+.wrapper.active:hover .btnCancle{
+    display: block;
+}
+.wrapper.active .btnCancle:hover{
+    color: #4b06eb;
+}
+.wrapper .file-name{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: #fff;
+    padding: 8px 0;
+    font-size: 12px;
+	text-align: center;
+    display: none;
+    background: linear-gradient(135deg,#19f5b3 0%,#07c0d8 100%);
+}
+.wrapper.active:hover .file-name{
+    display: block;
+}
+.container .BtnCustom{
+    margin-top: 12px;
+    width: 100%;
+    height: 40px;
+    display: block;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 17px;
+    padding-top: 6px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: linear-gradient(135deg,#19f5b3 0%,#07c0d8 100%);
+}
+/* End */
+.btnAddSubmit{
+    margin-top: 12px;
+    width: 100%;
+    height: 40px;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 6px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: linear-gradient(135deg,#04d160 0%,#c09d03 100%);
+}
